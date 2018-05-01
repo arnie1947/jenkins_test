@@ -3,10 +3,10 @@
     "description": "N/A",
     "require": {
         "php": "~7.0.13|~7.1.0",
-        "magento/framework": "100.2.*"
+        "magento/framework": "101.0.*"
     },
     "type": "magento2-module",
-    "version": "100.0.0-dev",
+    "version": "101.0.1-dev",
     "license": [
         "proprietary"
     ],
