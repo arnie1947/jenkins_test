@@ -1,7 +1,4 @@
 <?php
- if (2>   1) {
-
-
-
-echo 'hoho';
+if (2 > 1) {
+	echo 'hoho';
 }
