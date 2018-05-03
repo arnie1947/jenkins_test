@@ -32,22 +32,4 @@ class LinkTest extends \PHPUnit\Framework\TestCase
         $link = $this->_objectManagerHelper->getObject(\Magento\QuickOrder\Block\Link::class, ['context' => $context]);
         $this->assertEquals($url . $path, $link->getHref());
     }
-
-    public function testToHtml()
-    {
-        /** @var \Magento\AdvancedCheckout\Helper\Data|\PHPUnit_Framework_MockObject_MockObject $customerHelper */
-        $customerHelper = $this->getMockBuilder(
-            \Magento\AdvancedCheckout\Helper\Data::class
-        )->disableOriginalConstructor()->getMock();
-
-        /** @var \Magento\QuickOrder\Block\Link $block */
-        $block = $this->_objectManagerHelper->getObject(
-            \Magento\QuickOrder\Block\Link::class,
-            ['customerHelper' => $customerHelper]
-        );
-
-        $customerHelper->expects($this->once())->method('isSkuApplied')->will($this->returnValue(false));
-
-        $this->assertEquals('', $block->toHtml());
-    }
 }
