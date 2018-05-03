@@ -22,7 +22,6 @@ class Link extends \Magento\Framework\View\Element\Html\Link
         \Magento\Framework\View\Element\Template\Context $context,
         array $data = []
     ) {
-        $this->_customerHelper = $customerHelper;
         parent::__construct($context, $data);
     }
 
