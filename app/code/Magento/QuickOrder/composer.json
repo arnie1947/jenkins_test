@@ -2,24 +2,11 @@
     "name": "magento/module-quick-order",
     "description": "N/A",
     "require": {
-        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
-        "magento/framework": "100.2.*",
-        "magento/module-advanced-checkout": "100.2.0-dev",
-        "magento/module-authorization": "100.2.*",
-        "magento/module-catalog": "101.1.0-dev",
-        "magento/module-catalog-inventory": "100.2.0-dev",
-        "magento/module-catalog-permissions": "100.2.0-dev",
-        "magento/module-catalog-search": "100.2.*",
-        "magento/module-checkout": "100.2.*",
-        "magento/module-config": "100.2.*",
-        "magento/module-customer": "100.2.*",
-        "magento/module-quote": "100.2.0-dev",
-        "magento/module-search": "100.2.*",
-        "magento/module-store": "100.2.*",
-        "magento/module-wishlist": "100.2.0-dev"
+        "php": "~7.0.13|~7.1.0",
+        "magento/framework": "101.0.*"
     },
     "type": "magento2-module",
-    "version": "100.0.0-dev",
+    "version": "101.0.1-dev",
     "license": [
         "proprietary"
     ],
